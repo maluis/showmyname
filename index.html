@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Show/Hide Name</title>
+    <script>
+      function toggleName() {
+        var nameElement = document.getElementById("name");
+        if (nameElement.style.display === "none") {
+          nameElement.style.display = "block";
+        } else {
+          nameElement.style.display = "none";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="toggleName()">Show/Hide Name</button>
+    <p id="name">Luis Antonio Martinez</p>
+  </body>
+</html>
